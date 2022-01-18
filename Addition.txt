@@ -3,13 +3,13 @@ class Main {
   public static void main(String[] args) {
     
     System.out.println("Enter two numbers");
-    int first = 10;
-    int second = 20;
+    int a = 10;
+    int b = 20;
     
-    System.out.println(first + " " + second);
+    System.out.println(a + " " + b);
 
-    // add two numbers
-    int sum = first + second;
+    // addition of two numbers
+    int sum = a + b;
     System.out.println("The sum is: " + sum);
   }
 }
